@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+}
+
+@layer components{
+    .main_container{
+        @apply flex items-center justify-center min-h-screen bg-slate-100;
+    }
+    .card_container{
+        @apply flex flex-col p-6 m-3 space-y-10 bg-white rounded-2xl shadow-2xl md:flex-row md:space-y-0 md:space-x-10 md:m-0 md:p-16;
+    }
+    .product_img{
+        @apply mx-auto duration-200 w-60 hover:scale-105;
+    }
+
+    .product_content{
+        @apply flex flex-col mb-4 space-y-3 text-center md:text-left;
+    }
+    .shipping_options{
+        @apply inline-block px-3 py-1 text-sm text-white bg-black rounded-full;
+    }
+    .product_title{
+        @apply max-w-sm text-2xl font-medium;
+    }
+    .price_container {
+        @apply flex flex-col mb-4 space-y-3 text-center;
+    }
+    .offer_valid {
+        @apply text-sm font-light text-gray-400;
+    }
+}

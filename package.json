@@ -1,0 +1,20 @@
+{
+  "name": "simple_tailwind_product_modal",
+  "version": "1.0.0",
+  "description": "This is a simple Tailwindcss product modal. It is a simple modal that can be used to display product details.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [
+    "tailwindcss",
+    "CSS",
+    "new environment"
+  ],
+  "author": "Tyler Anderson",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
